@@ -55,6 +55,8 @@ mongo
   const ObjectId = mongodb.ObjectId;
 
 
+//pre separation of concerns linkedin passport.js log in
+
 const passport = require('passport')
 
 var LinkedInStrategy = require('passport-linkedin-oauth2').Strategy;
